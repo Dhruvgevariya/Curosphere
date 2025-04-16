@@ -1,0 +1,15 @@
+const routes = require("express").Router()
+const userController = require("../controllers/UserController")
+const upload = require("../middlewares/Middleware1")
+routes.get("/all",userController.getAllUsers)
+routes.post("/add",userController.addUSers)
+routes.post("/add1",userController.addUSer1)
+routes.delete("/delete/:id",userController.deleteUser)
+routes.get("/get/:id",userController.getUserById)
+routes.post("/signup",userController.signup)
+routes.post("/login",userController.loginUser)
+routes.post("/forgetpassword",userController.forgetPassword)
+routes.post("/resetpassword",userController.resetPassword)
+routes.put("/update/:id", upload.single('profilePic'), userController.updateProfile);
+routes.get("/profile/:id", userController.getProfile)
+module.exports = routes
