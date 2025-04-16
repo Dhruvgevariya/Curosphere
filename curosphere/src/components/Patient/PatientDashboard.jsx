@@ -573,7 +573,7 @@ const PatientDashboard = () => {
                     <h6 className="font-weight-bold mb-3">Quick Actions</h6>
                     <div className="row">
                       <div className="col-6 mb-2">
-                        <Link to="/appointmentbooking" className="btn btn-primary btn-block">
+                        <Link to="/doctor" className="btn btn-primary btn-block">
                           <CalendarIcon /> Book Appointment
                         </Link>
                       </div>
