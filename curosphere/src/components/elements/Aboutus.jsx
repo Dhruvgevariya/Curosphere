@@ -29,14 +29,10 @@ export const Aboutus = () => {
                     </p>
                     <h1 className="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
                     <p>
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                      diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-                      lorem sit clita duo justo magna dolore erat amet
+                    Welcome to Curosphere, your trusted partner in seamless healthcare access. We understand that booking a doctor’s appointment should be quick, easy, and stress-free. That’s why we’ve created a platform that connects patients with top-rated doctors, specialists, and healthcare providers in just a few clicks.
                     </p>
                     <p className="mb-4">
-                      Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet
-                      est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy
-                      clita sit at, sed sit sanctus dolor eos.
+                    At Curosphere, we’re dedicated to revolutionizing healthcare accessibility. By leveraging technology, we bridge the gap between patients and medical professionals, ensuring timely care, reduced wait times, and a hassle-free booking experience.
                     </p>
                     <p>
                       <i className="far fa-check-circle text-primary me-3" />

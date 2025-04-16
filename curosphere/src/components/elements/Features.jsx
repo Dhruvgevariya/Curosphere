@@ -17,9 +17,7 @@ export const Features = () => {
                       </p>
                       <h1 className="text-white mb-4">Why Choose Us</h1>
                       <p className="text-white mb-4 pb-2">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-                        lorem sit clita duo justo erat amet
+                      At Curosphere, we prioritize your health with top-tier medical services, expert professionals, and a patient-first approach. Here's why patients trust us:
                       </p>
                       <div className="row g-4">
                         <div className="col-6">

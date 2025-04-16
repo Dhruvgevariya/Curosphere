@@ -24,8 +24,7 @@ export const Services = () => {
               </div>
               <h4 className="mb-3">Cardiology</h4>
               <p className="mb-4">
-                Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-                sed diam stet diam sed stet.
+              We specialize in diagnosing and treating heart conditions with advanced technologies and compassionate care. Trust us to keep your heart healthy.
               </p>
               <a className="btn" href="">
                 <i className="fa fa-plus text-primary me-3" />
@@ -43,8 +42,7 @@ export const Services = () => {
               </div>
               <h4 className="mb-3">Pulmonary</h4>
               <p className="mb-4">
-                Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-                sed diam stet diam sed stet.
+              Our pulmonary unit offers comprehensive care for lung and respiratory disorders. From asthma to COPD, breathe easy with our expert team.
               </p>
               <a className="btn" href="">
                 <i className="fa fa-plus text-primary me-3" />
@@ -62,8 +60,7 @@ export const Services = () => {
               </div>
               <h4 className="mb-3">Neurology</h4>
               <p className="mb-4">
-                Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-                sed diam stet diam sed stet.
+              Dedicated to the diagnosis and treatment of brain, spine, and nerve conditions. We combine innovation and expertise for your neurological health.
               </p>
               <a className="btn" href="">
                 <i className="fa fa-plus text-primary me-3" />
@@ -81,8 +78,7 @@ export const Services = () => {
               </div>
               <h4 className="mb-3">Orthopedics</h4>
               <p className="mb-4">
-                Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-                sed diam stet diam sed stet.
+              Restoring movement and relieving pain through expert orthopedic care. From fractures to joint replacements, we're here to support your recovery.
               </p>
               <a className="btn" href="">
                 <i className="fa fa-plus text-primary me-3" />
@@ -100,8 +96,7 @@ export const Services = () => {
               </div>
               <h4 className="mb-3">Dental Surgery</h4>
               <p className="mb-4">
-                Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-                sed diam stet diam sed stet.
+              Offering a full range of dental surgical services in a comfortable environment. Your oral health is in expert hands.
               </p>
               <a className="btn" href="">
                 <i className="fa fa-plus text-primary me-3" />
@@ -119,8 +114,7 @@ export const Services = () => {
               </div>
               <h4 className="mb-3">Laboratory</h4>
               <p className="mb-4">
-                Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-                sed diam stet diam sed stet.
+              Equipped with modern technology for accurate diagnostics. Our lab ensures fast and reliable test results for better treatment decisions.
               </p>
               <a className="btn" href="">
                 <i className="fa fa-plus text-primary me-3" />

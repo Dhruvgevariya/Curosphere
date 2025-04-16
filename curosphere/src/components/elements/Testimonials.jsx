@@ -30,12 +30,10 @@ export const Testimonials = () => {
                         />
                         <div className="testimonial-text rounded text-center p-4" >
                           <p>
-                            Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
-                            duo labore sed sed. Magna ut diam sit et amet stet eos sed clita
-                            erat magna elitr erat sit sit erat at rebum justo sea clita.
+                          Exceptional care from start to finish. The doctors were attentive, the staff was friendly, and I felt truly cared for throughout my treatment. I would highly recommend Curosphere to anyone seeking reliable and professional medical support.
                           </p>
-                          <h5 className="mb-1">Patient Name 1</h5>
-                          <span className="fst-italic">Profession</span>
+                          <h5 className="mb-1">Riya Sharma</h5>
+                          <span className="fst-italic">Marketing Executive</span>
                         </div>
                       </div>
                     </div>
@@ -49,12 +47,10 @@ export const Testimonials = () => {
                         />
                         <div className="testimonial-text rounded text-center p-4">
                           <p>
-                            Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
-                            duo labore sed sed. Magna ut diam sit et amet stet eos sed clita
-                            erat magna elitr erat sit sit erat at rebum justo sea clita.
+                          I visited for a dental procedure and was blown away by the cleanliness and professionalism. The consultation was detailed and the doctor explained everything clearly. I felt safe and informed every step of the way.
                           </p>
-                          <h5 className="mb-1">Patient Name 2</h5>
-                          <span className="fst-italic">Profession</span>
+                          <h5 className="mb-1">Amit Verma</h5>
+                          <span className="fst-italic">Research Scientist</span>
                         </div>
                       </div>
                     </div>
@@ -68,12 +64,10 @@ export const Testimonials = () => {
                         />
                         <div className="testimonial-text rounded text-center p-4 ">
                           <p>
-                            Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
-                            duo labore sed sed. Magna ut diam sit et amet stet eos sed clita
-                            erat magna elitr erat sit sit erat at rebum justo sea clita.
+                          Their 24/7 support is a game changer. I had questions late at night and received immediate assistance. The level of commitment and care is unmatched. Curosphere really sets the standard for patient service.
                           </p>
-                          <h5 className="mb-1">Patient Name 3</h5>
-                          <span className="fst-italic">Profession</span>
+                          <h5 className="mb-1">Sneh Kapoor</h5>
+                          <span className="fst-italic">University Student</span>
                         </div>
                       </div>
                     </div>

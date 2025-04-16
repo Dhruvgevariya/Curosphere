@@ -9,7 +9,7 @@ export const Footer = () => {
     >
       <div className="container py-5">
         <div className="row g-5">
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <h5 className="text-light mb-4">Address</h5>
             <p className="mb-2">
               <i className="fa fa-map-marker-alt me-3" />
@@ -49,8 +49,8 @@ export const Footer = () => {
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
+          </div> */}
+          <div className="col-lg-4 col-md-6">
             <h5 className="text-light mb-4">Services</h5>
             <a className="btn btn-link" href="">
               Cardiology
@@ -68,7 +68,7 @@ export const Footer = () => {
               Laboratory
             </a>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <h5 className="text-light mb-4">Quick Links</h5>
             <a className="btn btn-link" href="">
               About Us
@@ -86,9 +86,9 @@ export const Footer = () => {
               Support
             </a>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <h5 className="text-light mb-4">Newsletter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <p>Signup for our monthly newsletter.</p>
             <div className="position-relative mx-auto" style={{ maxWidth: 400 }}>
               <input
                 className="form-control border-0 w-100 py-3 ps-4 pe-5"
@@ -111,15 +111,15 @@ export const Footer = () => {
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               ©{" "}
               <a className="border-bottom" href="#">
-                Your Site Name
+                Curosphere
               </a>
               , All Right Reserved.
             </div>
             <div className="col-md-6 text-center text-md-end">
               {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
               Designed By{" "}
-              <a className="border-bottom" href="https://htmlcodex.com">
-                HTML Codex
+              <a className="border-bottom" href="#">
+                Dhruv Gevariya
               </a>
             </div>
           </div>

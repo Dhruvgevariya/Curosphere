@@ -222,7 +222,7 @@ const DoctorDashboard = () => {
             </Link>
           </ul>
 
-          <small className="text-secondary d-block mt-3 mb-2">DOCTOR</small>
+          {/* <small className="text-secondary d-block mt-3 mb-2">DOCTOR</small>
           <ul className="list-group list-group-flush">
             <li className="list-group-item list-group-item-action rounded mb-1">
               <CalendarIcon className="mr-2" />
@@ -241,7 +241,7 @@ const DoctorDashboard = () => {
               <BedIcon className="mr-2" />
               Room Allotment
             </li>
-          </ul>
+          </ul> */}
         </nav>
       </aside>
 

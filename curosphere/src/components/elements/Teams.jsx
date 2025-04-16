@@ -24,8 +24,8 @@ export const Teams = () => {
                         <img className="img-fluid" src={team1} alt="" />
                       </div>
                       <div className="team-text bg-light text-center p-4">
-                        <h5>Doctor Name</h5>
-                        <p className="text-primary">Department</p>
+                        <h5>Dr. Emily Thompson</h5>
+                        <p className="text-primary">Neurologist</p>
                         <div className="team-social text-center">
                           <a className="btn btn-square" href="">
                             <i className="fab fa-facebook-f" />
@@ -46,8 +46,8 @@ export const Teams = () => {
                         <img className="img-fluid" src={team2} alt="" />
                       </div>
                       <div className="team-text bg-light text-center p-4">
-                        <h5>Doctor Name</h5>
-                        <p className="text-primary">Department</p>
+                        <h5>Dr. James Carter</h5>
+                        <p className="text-primary">Cardiologist</p>
                         <div className="team-social text-center">
                           <a className="btn btn-square" href="">
                             <i className="fab fa-facebook-f" />
@@ -68,8 +68,8 @@ export const Teams = () => {
                         <img className="img-fluid" src={team3} alt="" />
                       </div>
                       <div className="team-text bg-light text-center p-4">
-                        <h5>Doctor Name</h5>
-                        <p className="text-primary">Department</p>
+                        <h5>Dr. Olivia Bennett</h5>
+                        <p className="text-primary">Pulmonologist</p>
                         <div className="team-social text-center">
                           <a className="btn btn-square" href="">
                             <i className="fab fa-facebook-f" />
@@ -90,8 +90,8 @@ export const Teams = () => {
                         <img className="img-fluid" src={team4} alt="" />
                       </div>
                       <div className="team-text bg-light text-center p-4">
-                        <h5>Doctor Name</h5>
-                        <p className="text-primary">Department</p>
+                        <h5>Dr. Daniel Reed</h5>
+                        <p className="text-primary">Orthopedic Surgeon</p>
                         <div className="team-social text-center">
                           <a className="btn btn-square" href="">
                             <i className="fab fa-facebook-f" />

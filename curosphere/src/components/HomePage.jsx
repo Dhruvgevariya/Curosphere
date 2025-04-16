@@ -61,7 +61,7 @@ export const HomePage = () => {
     {/* Team End */}
     {/* Appointment Start */}
    
-    <Appointments></Appointments>
+    {/* <Appointments></Appointments> */}
     {/* Appointment End */}
     {/* Testimonial Start */}
     

@@ -113,7 +113,7 @@ export const Service = () => {
  <Services></Services>
   {/* Service End */}
   {/* Appointment Start */}
-  <Appointments></Appointments>
+  {/* <Appointments></Appointments> */}
   {/* Appointment End */}
   {/* Testimonial Start */}
   <Testimonials></Testimonials>
