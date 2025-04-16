@@ -44,5 +44,6 @@ routes.delete("/delete/:id", doctorController.deleteDoctor);
 routes.post("/addwithfile", upload.single('profilePic'), doctorController.addDoctorWithFile);
 routes.put("/updatedoctor/:id", upload.single('profilePic'), doctorController.updateDoctor);
 routes.get("/getdoctorbyid/:id", doctorController.getDoctorById);
+// routes.get("/getdoctorbyuserid/:userId", doctorController.getDoctorById);
 
 module.exports = routes;

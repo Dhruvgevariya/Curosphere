@@ -173,17 +173,17 @@ export const Clinic = () => {
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
           <h4 className="font-weight-bold">
-            Welcome Back, <span className="text-primary font-weight-bold">Dr. Smith</span>
+            Welcome Back, <span className="text-primary font-weight-bold"></span>
           </h4>
-          <small className="text-secondary">Gynecologist, MBBS.MD</small>
+          {/* <small className="text-secondary">Gynecologist, MBBS.MD</small> */}
         </div>
         <div className="d-flex align-items-center">
-          <button className="btn btn-primary mr-2">
+          {/* <button className="btn btn-primary mr-2">
             <NotificationsIcon /> <span className="badge badge-danger ml-1">3</span>
           </button>
           <div className="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style={{ width: '40px', height: '40px' }}>
             SS
-          </div>
+          </div> */}
         </div>
       </div>
 

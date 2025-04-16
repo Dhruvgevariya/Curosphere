@@ -130,7 +130,21 @@ const getDoctorById = async (req, res) => {
     res.status(500).json({ message: err.message })
   }
 }
-
+// const getDoctorByUserId = async (req, res) => {
+//   try {
+//     const doctorById = await doctorModel.findById(req.params.userId)
+//     if (!doctorById) {
+//       res.status(404).json({ message: "No Doctor found" })
+//     } else {
+//       res.status(200).json({
+//         message: "Doctor fetched Successfully",
+//         data: doctorById
+//       })
+//     }
+//   } catch (err) {
+//     res.status(500).json({ message: err.message })
+//   }
+// }
 const getProfile = async (req, res) => {
   try {
     const profile = await doctorModel
@@ -264,5 +278,6 @@ module.exports = {
   deleteDoctor,
   addDoctorWithFile,
   getProfile,
-  updateDoctor
+  updateDoctor,
+  // getDoctorByUserId
 }

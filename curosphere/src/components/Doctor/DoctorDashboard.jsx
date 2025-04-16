@@ -24,6 +24,7 @@ import { FaHospital } from "react-icons/fa";
 
 const DoctorDashboard = () => {
   const [doctorDetails, setDoctorDetails] = useState(null);
+  const [doctorDetail, setDoctorDetail] = useState(null);
   const [upcomingAppointments, setUpcomingAppointments] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -39,6 +40,11 @@ const DoctorDashboard = () => {
           headers: { Authorization: `Bearer ${token}` }
         });
         setDoctorDetails(doctorRes.data.data);
+
+        const res = await axios.get(`/doctor/getprofile/${doctorId}`)
+        // console.log("HEllo",res)
+        setDoctorDetail(res.data.data)
+
 
         // Fetch appointments
        const appointmentsRes = await axios.get(`/appointment/getall?doctorId=${doctorId}`, 
@@ -127,11 +133,12 @@ const DoctorDashboard = () => {
       </div>
     );
   }
+ 
 
   const doctorInitials = `${doctorDetails.firstName.charAt(0)}${doctorDetails.lastName.charAt(0)}`;
   const doctorFullName = `Dr. ${doctorDetails.firstName} ${doctorDetails.lastName}`;
-  const doctorSpecialization = doctorDetails.specialization || "Doctor";
-  const doctorQualification = doctorDetails.qualification || "";
+  const doctorSpecialization = doctorDetail.specialization || "Doctor";
+  const doctorQualification = doctorDetail.qualification || "";
 
   const patientSurveys = [
     { id: 1, name: "New Patients", completed: false },
@@ -311,7 +318,7 @@ const DashboardContentWithClinic = ({
           <h4 className="font-weight-bold">
             Welcome Back,{" "}
             <span className="text-primary font-weight-bold">
-              {doctorFullName.split(" ")[0]}
+              {doctorFullName}
             </span>
           </h4>
           <small className="text-secondary">
@@ -319,7 +326,7 @@ const DashboardContentWithClinic = ({
           </small>
         </div>
         <div className="d-flex align-items-center">
-          <button
+          {/* <button
             className="btn btn-primary mr-2"
             style={{ marginRight: "10px" }}
           >
@@ -331,7 +338,7 @@ const DashboardContentWithClinic = ({
             style={{ width: "40px", height: "40px", marginRight: "10px" }}
           >
             {doctorInitials}
-          </div>
+          </div> */}
           <button
             onClick={handleLogout}
             type="submit"
