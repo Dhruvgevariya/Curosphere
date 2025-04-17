@@ -213,7 +213,8 @@ import {
 import {
   CalendarToday as CalendarIcon,
   Add as AddIcon,
-  ArrowForward as ArrowIcon
+  ArrowForward as ArrowIcon,
+  DashboardSharp
 } from '@mui/icons-material';
 import axios from 'axios';
 
@@ -320,8 +321,8 @@ const AppointmentList = () => {
           My Appointments
         </Typography>
         <Link to="/patientdashboard">
-          <Button variant="contained" color="primary" style={{marginLeft:"240px", height:"42px"}}>
-            Dashboard
+          <Button variant="contained" color="primary" style={{marginLeft:"220px", height:"42px"}}>
+           <DashboardSharp /> Dashboard
           </Button>
         </Link>
         <Button

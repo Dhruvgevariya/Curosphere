@@ -31,6 +31,7 @@ import AppointmentBooking from "./components/Patient/AppointmentBooking";
 import DoctorsList from "./components/Patient/DoctorList";
 import AppointmentDetails from "./components/Patient/AppointmentDetails";
 import AppointmentList from "./components/Patient/AppointmentList";
+import PatientsList from "./components/Doctor/PatientList";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -85,6 +86,7 @@ function App() {
           </Route>
 
           <Route path="/doctorprofile" element={<DoctorProfile />}></Route>
+          <Route path="/patientlist" element={<PatientsList/>}></Route>
         </Route>
       </Route>
     </Routes>
