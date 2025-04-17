@@ -438,8 +438,8 @@ const handleSubmit = async () => {
                 ))}
                 
                 {/* Gender Dropdown */}
-                <Grid item xs={6}>
-                  <FormControl fullWidth margin="normal">
+                <Grid item xs={12} md={8} container spacing={2}>
+                  <FormControl fullWidth margin="normal" style={{width:"204px"}}>
                     <InputLabel id="gender-label">Gender</InputLabel>
                     <Select
                       labelId="gender-label"
@@ -460,7 +460,7 @@ const handleSubmit = async () => {
                 
                 {/* State Dropdown */}
                 <Grid item xs={6}>
-                  <FormControl fullWidth margin="normal">
+                  <FormControl fullWidth margin="normal" style={{width:"204px"}}>
                     <InputLabel id="state-label">State</InputLabel>
                     <Select
                       labelId="state-label"
@@ -482,7 +482,7 @@ const handleSubmit = async () => {
                 
                 {/* City Dropdown */}
                 <Grid item xs={6}>
-                  <FormControl fullWidth margin="normal">
+                  <FormControl fullWidth margin="normal" style={{width:"204px"}}>
                     <InputLabel id="city-label">City</InputLabel>
                     <Select
                       labelId="city-label"
@@ -508,7 +508,7 @@ const handleSubmit = async () => {
                   </FormControl>
                 </Grid>
                 
-                <Grid item xs={12}>
+                <Grid item xs={12} >
                   <TextField
                     fullWidth
                     label="About"
@@ -518,8 +518,9 @@ const handleSubmit = async () => {
                     margin="normal"
                     variant="outlined"
                     multiline
-                    rows={4}
+                    rows={1}
                     disabled={isSubmitting}
+                    style={{width:"204px"}}
                   />
                 </Grid>
               </Grid>
